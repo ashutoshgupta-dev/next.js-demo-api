@@ -47,7 +47,7 @@ const EditPage=({params}:{params:Promise<{id:string}>})=>{
                 headers:{'content-type':'application/json'},
                 body:JSON.stringify(data)
         }) 
-              router.push('./show')
+              router.push('/show')
              // setData({ name: "", age: "", country: "", id: "" })
         
         }else if(v==="Cancel"){
